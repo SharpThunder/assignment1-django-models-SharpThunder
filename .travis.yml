@@ -10,4 +10,4 @@ install:
   - easy_install -U setuptools
   - pip install -q Django==$DJANGO
 # command to run tests
-script: python manage.py test
+script: python hwproject/manage.py test
